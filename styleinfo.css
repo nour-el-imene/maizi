@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    body {
+      height: 590px;
+      background: linear-gradient(to right, #ffcddb, #ff9ab6);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .login-container {
+      background: white;
+      padding: 32px;
+      border-radius: 32px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      width: 340px;
+      text-align: center;
+      position: relative;
+    }
+
+    
+
+    .login-container h2 {
+      margin-bottom: 16px;
+      color: #d43f8d;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 13px;
+      margin: 8px 0;
+      border: 1px solid #eee;
+      border-radius: 16px;
+      
+    }
+
+    
+
+    .login-container button {
+      background: linear-gradient(to right, #ff779d, #ffe0e9);
+      border: none;
+      padding: 13px 24px;
+      color: white;
+      border-radius: 16px;
+      margin-top: 16px;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .login-container button:hover {
+      background: linear-gradient(to right, #ffe0e9, #ff779d);
+    }
+
+    .forgot {
+      display: block;
+      margin-top: 16px;
+      font-size: 14px;
+      color: #888;
+      text-decoration: none;
+    }
+
+    /**/
+
+
+.back-link {
+  display: block;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #888;
+  text-decoration: none;
+}
